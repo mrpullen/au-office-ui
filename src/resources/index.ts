@@ -4,3 +4,8 @@ export * from './standard-service';
 export * from './elements/OfficeButton/office-button';
 export * from './elements/OfficeButton/buttonTypeViewEngineHooks';
 export * from './elements/OfficeButton/office-button-enums';
+export * from './elements/OfficeLabel/office-label';
+export * from './elements/OfficeLabel/office-label-enums';
+export * from './elements/OfficeTextField/office-textfield';
+export * from './elements/OfficeTextField/textFieldTypeViewEngineHooks';
+export * from './elements/OfficeTextField/office-textfield-enums';

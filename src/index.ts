@@ -9,7 +9,7 @@ import {FrameworkConfiguration} from 'aurelia-framework';
 export function configure(aurelia: FrameworkConfiguration) {
     aurelia.globalResources([
         './resources/elements/OfficeButton/office-button',
-        './resources/elements/OfficeButton/buttonTypeViewEngineHooks'
-
+        './resources/elements/OfficeButton/buttonTypeViewEngineHooks',
+        './resources/elements/OfficeLabel/office-label'
     ]);
 }

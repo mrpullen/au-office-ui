@@ -1,4 +1,4 @@
-import {MyAbstractBaseService} from './base-service';
+import { MyAbstractBaseService } from './base-service';
 
 export class MySpecialService extends MyAbstractBaseService {
 

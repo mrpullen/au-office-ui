@@ -1,0 +1,7 @@
+<template>
+  <div class.bind="css">
+    <Label label.bind="label" enablestate="enableState" requiredstate="requiredState"></Label>
+    <textarea if.bind="TextFieldType === TextFieldTypes['multiline']" class.bind="css">${value}</textarea>
+    <input if.bind="TextFieldType != TextFieldTypes['multiline']" class.bind="css" type="text" value="${value}" placeholder="${placeholder}">
+  </div>
+</template>
