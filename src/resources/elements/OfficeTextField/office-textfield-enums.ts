@@ -1,5 +1,5 @@
 export enum TextFieldType {
-    default,
+    default = 1,
     multiline,
     underlined
 }

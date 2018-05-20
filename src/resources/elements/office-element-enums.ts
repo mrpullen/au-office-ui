@@ -7,3 +7,9 @@ export enum OfficeElementRequired {
     notrequired,
     required
 }
+
+export enum OfficeElementChecked
+{
+    unchecked,
+    checked
+}
